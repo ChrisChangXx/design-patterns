@@ -15,5 +15,6 @@ public abstract class CondimentDecorator extends Beverage {
      *
      * @return {@link String}
      */
+    @Override
     public abstract String getDescription();
 }
